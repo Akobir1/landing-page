@@ -1,0 +1,523 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* header */
+.d-flex {
+  display: flex;
+}
+.a-center {
+  align-items: center;
+}
+
+.j-betwen {
+  justify-content: space-between;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.section-title {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.75rem;
+}
+
+.section-text {
+  color: #717171;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.header {
+  padding: 1.88rem 0rem;
+}
+
+.header-nav_list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header-nav_item a {
+  color: #18191f;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-right: 3.12rem;
+}
+
+.header-nav_item:last-child a {
+  margin-right: 0rem;
+}
+
+.header-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-btns button {
+  padding: 0.62rem 1.25rem;
+  display: flex;
+  padding: 0.625rem 1.25rem;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.375rem;
+  background: #4caf4f;
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+
+  margin-right: 0.88rem;
+}
+
+.header-btns button:last-child {
+  margin-right: 0rem;
+}
+/* header */
+
+/* hero */
+
+#hero {
+  padding: 6rem 8rem;
+}
+
+.hero-info h1 {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.75rem;
+}
+
+.hero-info h1 span {
+  color: #4caf4f;
+}
+
+.hero-info p {
+  color: #717171;
+
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin: 1rem 0rem 2rem;
+}
+
+.hero-info button {
+  padding: 0.88rem 2rem;
+  border-radius: 0.25rem;
+  background: #4caf4f;
+  border: none;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.hero-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-img img {
+  width: 24.4375rem;
+  height: 25.4375rem;
+}
+
+/* clints */
+
+#clients {
+  padding: 2.5rem 0rem;
+}
+.clients-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.clients-header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.clients-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 2.12rem 0rem;
+}
+
+.clients-logo li {
+  margin-right: 9rem;
+}
+
+.clients-logo li:last-child {
+  margin-right: 0px;
+}
+
+/* community */
+#community {
+  padding: 2.5rem 0rem;
+}
+
+.community-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.community-header h2 {
+  width: 33.875rem;
+  margin: 0px auto;
+}
+
+.community-header p {
+  margin-top: 0.5rem;
+}
+.community-cart-item {
+  display: flex;
+}
+
+.community-cart-content {
+  width: 16.685rem;
+  border-radius: 0.5rem;
+  background: #fff;
+  box-shadow: 2px 2px 5px gray;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.community-cart-contenth3 {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.community-cart-content p {
+  color: #717171;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+/* pixelgrade */
+#pixelgrade {
+  padding: 3.25rem 0rem;
+}
+.pixelgrade-info {
+  width: 601px;
+  max-width: 100%;
+}
+
+.pixelgrade-img {
+  width: 27.625rem;
+  height: 27.0625rem;
+}
+
+.pixelgrade-info p {
+  margin: 1rem 0rem 2rem;
+}
+.pixelgrade-info button {
+  padding: 0.88rem 2rem;
+  border-radius: 0.25rem;
+  background: #4caf4f;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  border: none;
+}
+
+/* \pixelgrade */
+
+/* business */
+#business {
+  padding: 4rem 0rem;
+}
+
+.business-info h2 {
+  width: 25.5rem;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.business-info h2 span {
+  color: #4caf4f;
+}
+
+.business-info p {
+  color: #18191f;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.about-business {
+  gap: 1rem;
+  margin-bottom: 2.25rem;
+}
+
+.about-business_body h4 {
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.about-business_body p {
+  color: #717171;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+/* business */
+
+/* desigt */
+#desigt {
+  padding: 2rem 0rem;
+}
+
+.desigt-top_img {
+  width: 27.59581rem;
+  height: 29.3125rem;
+}
+.desigt-top_info {
+  width: 601px;
+  max-width: 100%;
+}
+
+.desigt-top_info p {
+  margin: 1rem 0rem 2rem;
+}
+
+.desigt-top_info button {
+  border-radius: 0.25rem;
+  background: #4caf4f;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0.88rem 2rem;
+  border: none;
+}
+
+.desigt-button_info h4 {
+  color: #4caf4f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin: 1rem 0rem 0.5rem;
+}
+
+.desigt-button_list {
+  list-style: none;
+  margin-top: 2.1rem;
+}
+.desigt-button_item {
+  margin-right: 2.05rem;
+}
+.desigt-button_item:last-child {
+  margin-right: 0rem;
+}
+
+.desigt-button_item:last-child a {
+  color: #4caf4f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+/*  desigt  */
+/* marketing */
+#marketing {
+  padding: 2rem 0rem 6rem;
+}
+
+.marketing-header {
+  width: 628px;
+  max-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.marketing-header h2 {
+  margin-bottom: 0.5rem;
+}
+
+.marketing-card_list {
+  list-style: none;
+}
+
+.marketing-card_item {
+  width: 23rem;
+  position: relative;
+}
+
+.marketing-card_img img {
+  width: 100%;
+  height: 17.875rem;
+}
+
+.marketing-card_body {
+  border-radius: 0.5rem;
+  background: #f5f7fa;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  width: 317px;
+  height: 176px;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 11rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.marketing-card_body h4 {
+  color: #717171;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.marketing-card_body a {
+  color: #4caf4f;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+/* marketing */
+
+/* jumbotrom */
+.jumbotrom {
+  padding: 2rem 0rem;
+  background-color: #f5f7fa;
+}
+
+.jumbotrom h2 {
+  width: 55.4375rem;
+  max-width: 100%;
+  margin: 0rem auto 2rem;
+  color: #263238;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.75rem;
+}
+
+.jumbotrom button {
+  margin: 0px auto;
+  padding: 0.875rem 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: #4caf4f;
+}
+
+.jumbotrom button span {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+/* jumbotrom */
+
+/* futr */
+.futr {
+  background-color: #263238;
+}
+.futr-info h4 {
+  margin-bottom: 0.5rem;
+  color: #f5f7fa;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  width: 21.875rem;
+}
+
+.futr-img {
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.futr-card {
+  margin-top: 2.5rem;
+}
+.futr-cars {
+  margin-top: 5rem;
+}
+.futr-cars li {
+  list-style: none;
+  margin-top: 0.75rem;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+/* futr */
